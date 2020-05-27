@@ -275,7 +275,7 @@ body {
 .panel {
 	position: relative;
 	height: 100vh;
-	overflow: scroll;
+	overflow: hidden;
 	box-sizing: border-box;
 }
 
