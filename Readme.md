@@ -10,3 +10,9 @@
 * [Contact]()
 
 ## Social Links
+
+
+## Todo List
+* add Projects and skill based sorting
+* fix contact form
+* fix social icons on home page

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <title>Sourabh Raikwar | Contact</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    
+    <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="nav">
+        <div class="open">
+            <span class="cls"></span>
+            <span>
+                <ul class="sub-menu ">
+                    <li>
+                        <a href="#about" title="about">Home</a>
+                    </li>
+                    <li>
+                        <a href="#skills" title="skills">About</a>
+                    </li>
+                    <li>
+                        <a href="#jobs" title="jobs">Projects & Skills</a>
+                    </li>
+                    <li>
+                        <a href="#jobs" title="jobs">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="contact">Contact</a>
+                    </li>
+                </ul>
+            </span>
+            <span class="cls"></span>
+        </div>
+    </nav>
+    <!-- background stars -->
+    <canvas id="c"></canvas>
+
+    <section id="contact">
+    
+        <h1 class="section-header">CONTACT</h1>
+    
+        <div class="contact-wrapper">
+    
+            <!---------------- 
+    
+          CONTACT PAGE LEFT 
+        
+          ----------------->
+    
+            <form class="form-horizontal" role="form" method="GET" action="mailto:sourabhr4ikwar@gmail.com">
+    
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" id="subject" placeholder="EMAIL" name="subject" value="">
+                    </div>
+                </div>
+    
+                <textarea class="form-control" onchange="change(this)" rows="10" placeholder="MESSAGE" name="body" value=""></textarea>
+    
+                <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                    <div class="button">
+                        <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                    </div>
+    
+                </button>
+    
+            </form>
+    
+            <!---------------- 
+    
+          CONTACT PAGE RIGHT 
+        
+          ----------------->
+    
+            <div class="direct-contact-container">
+    
+                <ul class="contact-list">
+                    <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Indore |
+                                India</span></i></li>
+    
+                    <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                                    href="tel:+917400832090" title="Give me a call">+91 (740) 083-2090</a></span></i></li>
+    
+                    <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a
+                                    href="mailto:sourabhR4ikwar@gmail.com" title="Send me an email">sourabhR4ikwar@gmail.com</a></span></i></li>
+    
+                </ul>
+    
+                <hr>
+                <ul class="social-media-list">
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+                <hr>
+    
+                <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+
+    <script>
+        function change(e){
+            // var name = document.querySelector('input[name="name"]').value;
+            // var value = e.value +"\n Regards \n"+ name;
+            // e.value = value
+            // console.log(value);
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/star_canvas.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
