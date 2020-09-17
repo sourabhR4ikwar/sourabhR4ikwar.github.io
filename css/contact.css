@@ -3,7 +3,15 @@
   height: 100vh;
   /* background-color: #111; */
   overflow: hidden;
-  padding-bottom: 200px;
+}
+
+.heading {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    color: white;
+    /* font-size: 2em; */
+    font-weight: bold;
 }
 
 .section-header {
@@ -11,7 +19,7 @@
   margin: 0 auto;
   padding-top: 50px;
   margin-bottom: 50px;
-  font: 300 60px 'Oswald', sans-serif;
+  /* font: 300 60px 'Oswald', sans-serif; */
   letter-spacing: 6px;
   color: #fff;
   margin-bottom: 25px;
@@ -19,7 +27,7 @@
 
 .contact-wrapper {
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 13rem;
   position: relative;
   max-width: 800px;
 }

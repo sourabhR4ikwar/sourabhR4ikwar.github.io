@@ -1,0 +1,78 @@
+.projectCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.projectCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.projectCard img {
+  border-radius: 5px 5px 0 0;
+}
+
+.projectContainer {
+  padding: 10px 16px;
+}
+
+.projectCard h4 {
+  font-size: 16px;
+}
+
+.projectCard p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.projectCard .technology {
+  border-top: 0.5px solid #e6e6e6;
+  margin-top: 5px;
+  padding: 10px 16px;
+}
+.projectCard .technology ul {
+  margin-left: none;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectCard .technology li {
+  font-size: 12px;
+  margin: 0.4em 0.6em 0.4em 0.6em;
+  padding: 0.4em 0.6em 0.4em 0.6em;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.projectCard .actionButtons {
+  border-top:0.5px solid #e6e6e6 ;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.projectCard .actionButtons a {
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.projectCard .actionButtons a:nth-child(2) {
+  border-left: 0.5px solid #e6e6e6 ;
+  border-right: 0.5px solid #e6e6e6 ;
+}
+
+.projectCard .actionButtons.twoMode {
+  border-top:0.5px solid #e6e6e6 ;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.projectCard .actionButtons.twoMode a:nth-child(2) {
+  border-left: 0.5px solid #e6e6e6 ;
+  border-right: none;
+}
+

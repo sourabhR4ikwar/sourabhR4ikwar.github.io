@@ -13,6 +13,6 @@
 
 
 ## Todo List
-* add Projects and skill based sorting
-* fix contact form
-* fix social icons on home page
+* add Projects and skill based sorting [x]
+* fix contact form [x]
+* fix social icons on home page [x]

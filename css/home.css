@@ -9,6 +9,15 @@ h1 {
   padding: 40px 0;
 }
 
+.heading {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    color: white;
+    /* font-size: 2em; */
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
 	.pic-container{
 		flex-direction: column;
@@ -57,7 +66,9 @@ body {
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: #6e6e6e;
-	overflow:scroll;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box;
 }
 
 #intro{
@@ -98,7 +109,8 @@ body {
 	height: 100%;
 	background: #111111;
 	opacity: .0;
-	display: inline-block;
+	/* display: inline-block; */
+	display:none;
 }
 
 .intro-content {
@@ -218,9 +230,15 @@ body {
 }
 
 #dp{
-	height: 30rem;
+	height: 25rem;
 	border-radius: 50%;
 	margin: 20px;
+}
+
+.dp-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 @keyframes move-twink-back {
@@ -240,7 +258,7 @@ body {
 	to {background-position:-10000px 5000px;}
 }
 
-.stars, .twinkling{
+/* .stars, .twinkling{
 	position:absolute;
 	top:0;
 	left:0;
@@ -249,9 +267,9 @@ body {
 	width:100%;
 	height:100%;
 	display:block;
-}
+} */
 
-.stars {
+/* .stars {
 	background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
 	z-index:0;
 }
@@ -265,11 +283,11 @@ body {
 	-o-animation:move-twink-back 200s linear infinite;
 	-webkit-animation:move-twink-back 200s linear infinite;
 	animation:move-twink-back 200s linear infinite;
-}
+} */
 
 .well {
 	position: relative;
-	overflow: scroll;
+	/* overflow: scroll; */
 	transition: 0.6s cubic-bezier(0.5, 0, 0.5, 1);
 }
 .panel {
@@ -336,6 +354,13 @@ body {
   color: #111;
 }
 
+#resume {
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 4px 18px;
+}
 
 @media screen and (max-width: 760px) {
     #contact {
