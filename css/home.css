@@ -230,10 +230,11 @@ body {
 }
 
 #dp{
-	height: 25rem;
-	border-radius: 50%;
+	height: 20rem;
+	/* border-radius: 50%; */
 	margin: 20px;
 }
+
 
 .dp-container {
 	display: flex;
